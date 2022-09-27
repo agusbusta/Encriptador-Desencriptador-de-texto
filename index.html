@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+    <title>Encriptador de texto - Oracle/One</title>
+    <script type="text/javascript" src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="logo">
+        <img src="../Desafio1/Imagenes/Vector.png">
+    </div>
+    <section class="main">
+        <div class="input-container">
+            <input type="text" id="inputTexto" placeholder="Ingrese el texto aqui">
+        </div>
+       <div class="button-container">
+            <img src="../Desafio1/Imagenes/icon.png" class="icono">
+            <p>Solo letras minusculas y sin acentos</p>
+            <button class="encriptar" type="button" onclick="encriptar()">Encriptar</button> 
+            <button class="desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </section>
+    <section class="encriptador">
+            <img src="../Desafio1/Imagenes/Muñeco.png" id="imgDer">
+            <h3 id="titleDer">Ningun mensaje fue encontrado</h3>
+            <p id="textDer">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <textarea class="textResult" id="textResult" rows="8" cols="50"></textarea>
+            <button id="copy" class="copy" type="button" name="buttom" onclick="copy()">Copiar</button>
+    </section>
+    <footer>
+        <div class="f-container">
+            <p class="f-text">
+            © Copyright 2022 - Agustin Bustamante 
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
